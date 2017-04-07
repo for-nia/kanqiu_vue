@@ -1,0 +1,40 @@
+.game-desc {
+    display: inline-block;
+    color: #a0a0a0;
+    font-size: 13px;
+    height: 80px;
+    overflow: hidden;
+    padding: 30px 10px;
+    text-align: center;
+    width: 120px;
+}
+.game-desc span{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+.team {
+    font-size: 13px;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 145px;
+    text-align: center;
+}
+.game-item img {
+    height: 45px;
+    vertical-align: middle;
+    width: 48px;
+}
+
+.game-item{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #515151;
+    font-size: 0px;
+    display: inline-block;
+    height: 80px;
+    width: 798px;
+}
