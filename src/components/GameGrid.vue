@@ -4,15 +4,15 @@
             <span>{{data['leagueName']}}</span>
         </div>
         <div class="game-desc">
-            <span>{{data['date']}}</span>
+            <span>{{data['matchBeginTime']}}</span>
         </div>
         <div class="team">
             <img :src="data['homeLogo']"/>
             <span>{{data['homeName']}}</span>
         </div>
         <div class="team">
-            <span>{{data['guestName']}}</span>
-            <img :src="data['guestLogo']"/>
+            <span>{{data['awayName']}}</span>
+            <img :src="data['awayLogo']"/>
         </div>
     </a>
 </template>
